@@ -1,4 +1,4 @@
-package br.com.felipe.model;
+package br.com.felipe.main;
 
 public class Main {
     public static void main(String[] args) {
