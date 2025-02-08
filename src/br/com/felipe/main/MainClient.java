@@ -10,6 +10,11 @@ public class MainClient {
         client.setCep(32314);
         client.setPhoneNumber(31971389);
         client.setCity("");
-        client.setRegion("");
+
+        boolean toCheck = true;
+
+        if (toCheck){
+            System.out.println(client.getCep());
+        }
     }
 }
