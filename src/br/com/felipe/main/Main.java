@@ -19,5 +19,7 @@ public class Main {
         product.setType("");
 
         System.out.println(product.getFirstName());
+        System.out.println(product.getValue());
+        System.out.println(product.getType());
     }
 }
