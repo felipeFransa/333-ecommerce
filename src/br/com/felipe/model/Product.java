@@ -3,6 +3,7 @@ package br.com.felipe.model;
 public class Product {
     private String firstName;
     private Integer value;
+    private String type;
 
     public String getType() {
         return type;
@@ -27,8 +28,4 @@ public class Product {
     public void setValue(Integer value) {
         this.value = value;
     }
-
-    private String type;
-
-
 }

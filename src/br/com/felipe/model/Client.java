@@ -6,6 +6,15 @@ public class Client {
     private String region;
     private Integer phoneNumber;
     private Integer cep;
+    private Boolean typePlan;
+
+    public Boolean getTypePlan() {
+        return typePlan;
+    }
+
+    public void setTypePlan(Boolean typePlan) {
+        this.typePlan = typePlan;
+    }
 
     public String getFirstName() {
         return firstName;
