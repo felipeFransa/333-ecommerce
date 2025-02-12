@@ -2,9 +2,12 @@ package br.com.felipe.main;
 
 import br.com.felipe.model.Client;
 
+import java.util.Scanner;
+
 public class MainClient {
     public static void main(String[] args) {
         Client client = new Client();
+        Scanner readingManager = new Scanner(System.in);
 
         client.setFirstName("");
         client.setCep(32314);
