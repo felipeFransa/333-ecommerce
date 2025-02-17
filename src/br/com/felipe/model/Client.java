@@ -1,7 +1,7 @@
 package br.com.felipe.model;
 
 public class Client {
-    private String firstName;
+    private String name;
     private String city;
     private String region;
     private Integer phoneNumber;
@@ -16,12 +16,12 @@ public class Client {
         this.typePlan = typePlan;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCity() {

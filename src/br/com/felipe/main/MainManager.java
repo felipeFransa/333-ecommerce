@@ -14,12 +14,12 @@ public class MainManager {
         System.out.println("Enter your city:");
         String city = reading.nextLine();
 
-        manager.setFirstName(name);
+        manager.setName(name);
         manager.setAge(28);
         manager.setType(true);
         manager.setCity(city);
 
-        System.out.println(manager.getFirstName());
+        System.out.println(manager.getName());
         System.out.println(manager.getAge());
         System.out.println(manager.getCity());
     }

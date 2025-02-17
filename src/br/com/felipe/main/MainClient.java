@@ -9,7 +9,7 @@ public class MainClient {
         Client client = new Client();
         Scanner readingManager = new Scanner(System.in);
 
-        client.setFirstName("");
+        client.setName("");
         client.setCep(32314);
         client.setPhoneNumber(31971389);
         client.setCity("");

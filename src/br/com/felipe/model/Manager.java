@@ -1,17 +1,17 @@
 package br.com.felipe.model;
 
 public class Manager {
-    private String firstName;
+    private String name;
     private String city;
     private Integer age;
     private boolean type;
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCity() {
