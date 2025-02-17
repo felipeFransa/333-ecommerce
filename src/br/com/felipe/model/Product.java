@@ -2,7 +2,7 @@ package br.com.felipe.model;
 
 public class Product {
     private String firstName;
-    private Integer value;
+    private Double value;
     private String type;
 
     public String getType() {
@@ -13,19 +13,19 @@ public class Product {
         this.type = type;
     }
 
-    public String getFirstName() {
+    public String getName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setName(String firstName) {
         this.firstName = firstName;
     }
 
-    public Integer getValue() {
+    public Double getValue() {
         return value;
     }
 
-    public void setValue(Integer value) {
+    public void setValue(Double value) {
         this.value = value;
     }
 }
