@@ -18,5 +18,9 @@ public class MainManager {
         manager.setAge(28);
         manager.setType(true);
         manager.setCity(city);
+
+        System.out.println(manager.getFirstName());
+        System.out.println(manager.getAge());
+        System.out.println(manager.getCity());
     }
 }
