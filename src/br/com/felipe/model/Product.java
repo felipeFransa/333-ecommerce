@@ -4,6 +4,15 @@ public class Product {
     private String firstName;
     private Double value;
     private String type;
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getType() {
         return type;
