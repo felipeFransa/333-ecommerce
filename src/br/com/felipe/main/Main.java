@@ -32,7 +32,7 @@ public class Main {
         }
     }
 
-    // Método para criar e preencher o produto
+//     Método para criar e preencher o produto
     private static Product createProduct(Scanner scanner) {
         Product product = new Product();
 

@@ -8,5 +8,8 @@ public class MainProduct {
 
         product.setName("");
         product.setDescription("");
+
+        System.out.println(product.getName());
+        System.out.println(product.getDescription());
     }
 }
