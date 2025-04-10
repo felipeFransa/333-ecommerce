@@ -19,5 +19,8 @@ public class MainWorks {
 
         System.out.printf(works.getTitle());
         System.out.printf(works.getDescription());
+
+        System.out.printf(currentDate.format(dateFormatter));
+        System.out.printf(currentTime.format(timeFormatter));
     }
 }
