@@ -5,6 +5,7 @@ public class Product {
     private Double value;
     private String type;
     private String description;
+    private boolean promo;
 
     public String getDescription() {
         return description;
