@@ -7,6 +7,14 @@ public class Product {
     private String description;
     private boolean promo;
 
+    public boolean isPromo() {
+        return promo;
+    }
+
+    public void setPromo(boolean promo) {
+        this.promo = promo;
+    }
+
     public String getDescription() {
         return description;
     }
